@@ -12,11 +12,12 @@ https://snap.stanford.edu/data/
 ---
 
 # Repository Structure
-├── notebooks
-│ ├── baseline_heuristics.ipynb
-│ └── ai_link_prediction.ipynb
-├── README.md
+37005_Final_Jonathan_Monroe
 
+Notebooks /
+* ai_link_prediction.ipynb
+* baseline_link_prediction.ipynb
+* data_exploration.ipynb
 
 ---
 
