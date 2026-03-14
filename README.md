@@ -4,6 +4,10 @@ This repository contains notebooks used to evaluate several **link prediction me
 
 The experiments compare classical structural heuristics with embedding-based machine learning models.
 
+For an in-depth explanation of the experiments and processes used in this project, please reference the following post:
+
+https://open.substack.com/pub/jonathanmonroe/p/reconstructing-missing-social-network?utm_campaign=post-expanded-share&utm_medium=web
+
 All datasets used in the project come from the **Stanford Network Analysis Project (SNAP)**.
 
 SNAP dataset collection (by Jure Leskovec and Andrej Krevl):  
