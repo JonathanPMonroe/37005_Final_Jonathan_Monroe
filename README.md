@@ -1,4 +1,4 @@
-# Link Prediction Experiments on SNAP Network Datasets
+# Reconstructing Missing Social Network Links with Structural Baselines and AI Models
 
 This repository contains notebooks used to evaluate several **link prediction methods** on real-world network datasets.
 
