@@ -6,18 +6,8 @@ The experiments compare classical structural heuristics with embedding-based mac
 
 All datasets used in the project come from the **Stanford Network Analysis Project (SNAP)**.
 
-SNAP dataset collection:  
+SNAP dataset collection (by Jure Leskovec and Andrej Krevl):  
 https://snap.stanford.edu/data/
-
----
-
-# Repository Structure
-37005_Final_Jonathan_Monroe
-
-Notebooks /
-* ai_link_prediction.ipynb
-* baseline_link_prediction.ipynb
-* data_exploration.ipynb
 
 ---
 
@@ -81,22 +71,13 @@ https://snap.stanford.edu/data/email-Eu-core.txt.gz
 
 ---
 
-# Running the Notebooks
+## Running the Notebooks
 
 Run the notebooks in the following order:
 
-1. `notebooks/baseline_heuristics.ipynb`
-2. `notebooks/ai_link_prediction.ipynb`
+1. `Notebooks/data_exploration.ipynb`
+2. `Notebooks/baseline_link_prediction.ipynb`
+3. `Notebooks/ai_link_prediction.ipynb`
 
-The notebooks will automatically download the required datasets from SNAP.
+The notebooks automatically download the datasets from SNAP.
 
----
-
-# Data Source
-
-Stanford Network Analysis Project (SNAP)
-
-Jure Leskovec and Andrej Krevl  
-*SNAP Datasets: Stanford Large Network Dataset Collection*
-
-https://snap.stanford.edu/data/
