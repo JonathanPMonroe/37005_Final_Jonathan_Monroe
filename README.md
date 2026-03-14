@@ -15,29 +15,36 @@ https://snap.stanford.edu/data/
 
 ---
 
-# Notebooks
+## Notebooks
 
-### baseline_heuristics.ipynb
+### `data_exploration.ipynb`
 
-This notebook evaluates classical link prediction heuristics:
+Initial exploration of the SNAP datasets.  
+Computes basic network statistics and generates structural visualizations.
+
+---
+
+### `baseline_link_prediction.ipynb`
+
+Implements classical link prediction heuristics:
 
 - Common Neighbors
 - Adamic–Adar
 - Jaccard Similarity
 
-The notebook removes a fraction of edges from each network and measures how well these heuristics recover the missing edges.
+Edges are removed from each network and the heuristics are evaluated on their ability to recover the missing edges.
 
 ---
 
-### ai_link_prediction.ipynb
+### `ai_link_prediction.ipynb`
 
-This notebook evaluates machine learning approaches:
+Implements machine learning approaches for link prediction:
 
-- Node2Vec embeddings
+- Node2Vec node embeddings
 - Multilayer Perceptron (MLP)
 - Deep Q-Network (DQN)
 
-Node embeddings are learned from the observed graph and used to construct edge-level features for prediction.
+Embeddings and structural features are used to predict missing edges.
 
 ---
 
